@@ -1,12 +1,17 @@
 # Problem: 
 ## Đề bài:
-Viết chương trình nhập vào ba số nguyên và tìm số lớn nhất trong ba số đó.
-### Ví dụ:
+Viết chương trình xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ. Nếu:
+
+Điểm trung bình >= 9.0 là hạng A.
+Điểm trung bình >=7.0 và < 9.0 là hạng B
+Điểm trung bình >=5.0 và < 7.0 là hạng C
+Điểm trung bình < 5.0 là hạng F
 #### Dữ liệu vào: 
-Ba số nguyên không âm a, b, c phân biệt  ($0$ $\le$ $a, b, c$ $\le$ $10^7$).
+Ba số thực dương duy nhất lần lượt là điểm bài kiểm tra, điểm thi giữa kì, điểm thi cuối kì của học sinh($0 \le a, b, c \le 10$)
 #### Dữ liệu ra:
-Một dòng duy nhất hiển thị số lớn nhất.
+Một dòng duy nhất hiển thị hạng của học sinh theo số điểm trung bình
+### Ví dụ:
 #### Input
-> 2 3 5
+> 7 8 9
 #### Output
-> 5
+> Hang B
